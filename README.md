@@ -8,7 +8,8 @@ A car wash company needs a system to manage the cars that are waiting to be wash
 
 ## Implementation 
 Create a class called `Car` to hold the information of a car such as the type, color, and plate number.
-Create a WashQueue class that will manage the cars, the class should able to do the following operations:
+Create a WashQueue class that will manage the cars, the class should able to do the following
+operations:
 - Add a car to the queue.
 - Wash the first car in the queue and remove it from the queue.
 - Print the total number of cars in the queue.
