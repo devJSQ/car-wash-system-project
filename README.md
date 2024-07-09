@@ -1,18 +1,56 @@
-# restaurants-order-management-project
+# Car Wash System
 
 ## Objective 
+The purpose of this project is to validate your knowledge of the queue data structure. 
 
 ## Problem
-A restaurant needs order management, so they can manage customer's order.
-Store customer's order.
-When an order is ready, the customer can pick it, 
-if it's not, then the customer can't pick has order. 
-when order is added it takes 5 second to be ready.
-
-The program needs to have a menu on the console so he can view the orders with it's status ready or not, and remove the order from the menu if the customer pick has order, finally he can add new order. 
+A car wash company needs a system to manage the cars that are waiting to be washed. The system should be able to add cars to the wating queue and process them in the order they arrived, so the first car that arrived should be the first to be washed.
 
 ## Implementation 
+Create a class called `Car` to hold the information of a car such as the type, color, and plate number.
+Create a WashQueue class that will manage the cars, the class should able to do the following operations:
+- Add a car to the queue.
+- Wash the first car in the queue and remove it from the queue.
+- Print the total number of cars in the queue.
+- Print the first car in the queue.
+
 
 ## Test Case 
+```java
+
+public static void main(String[] args) {
+    WashQueue queue = new WashQueue();
+    queue.addCar(new Car("Sedan", "Red", "1234"));
+    queue.addCar(new Car("SUV", "Black", "5678"));
+    queue.addCar(new Car("Truck", "White", "91011"));
+    queue.addCar(new Car("Sedan", "Blue", "1213"));
+
+    queue.printFirstCar();
+    queue.printTotalCars();
+    
+    queue.washCar();
+
+    queue.printFirstCar();
+    queue.printTotalCars();
+}
+
+```
+
+```OUTPUT
+Car Type: Sedan
+Car Color: Red
+Car Plate: 1234
+
+Total Cars: 4
+
+Car Type: SUV
+Car Color: Black
+Car Plate: 5678
+
+Total Cars: 3
+```
 
 ## Qualification to pass 
+- The system shall run without any errors.
+- The system ouputs shall match the test case output.
+- The system shall be able to add cars to the queue, remove the first car in the queue, print the first car in the queue, and print the total number of cars in the queue.
