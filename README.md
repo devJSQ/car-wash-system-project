@@ -1,10 +1,10 @@
 # Car Wash System
 
 ## Objective 
-The purpose of this project is to validate your knowledge of the queue data structure. 
+The purpose of this project is to validate your knowledge of the `queue` **data structure**. 
 
 ## Problem
-A car wash company needs a system to manage the cars that are waiting to be washed. The system should be able to add cars to the wating queue and process them in the order they arrived, so the first car that arrived should be the first to be washed.
+A car wash company needs a `customer management program` to manage the cars waiting to be washed. The system should be able to **add cars to the waiting queue** and **process them in the order they arrived**, so the first car that arrived should be the first to be washed.
 
 ## Implementation 
 Create a class called `Car` to hold the information of a car such as the type, color, and plate number.
