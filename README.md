@@ -53,6 +53,6 @@ Total Cars: 3
 ```
 
 ## Qualification to pass 
-- The system shall run **without any errors**.
-- The system outputs shall match the **test case output**.
-- The system shall be able to **add cars to the queue**, **remove the first car** in the queue, **print the first car** in the queue, and **print the total number of cars** in the queue.
+- [ ] The system shall run **without any errors**.
+- [ ] The system outputs shall match the **test case output**.
+- [ ] The system shall be able to **add cars to the queue**, **remove the first car** in the queue, **print the first car** in the queue, and **print the total number of cars** in the queue.
