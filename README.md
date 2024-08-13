@@ -4,13 +4,13 @@
 The purpose of this project is to validate your knowledge of the `queue` **data structure**. 
 
 ## Problem
-A car wash company needs a `customer management program` to manage the cars waiting to be washed. The system should be able to **add cars to the waiting queue** and **process them in the order they arrived**, so the first car that arrived should be the first to be washed.
+A car wash company needs a customer management program to manage the cars waiting to be washed. The system should be able to **add cars to the waiting queue** and **process them in the order they arrived**, so the first car that arrived should be the first to be washed.
 
 ## Implementation 
-- Create a class called `Car` to hold the information of a car such as `type` `color`, and `plate number`.
-- Create a `WashQueue` class that will manage the `Car` class, the class should able to do the following operations:
+- Create a class called `Car` to hold the information of a car such as `type` `color`, and `plateNumber`.
+- Create a `WashQueue` class that will manage the `Car` class. The `WashQueue` class should be able to do the following operations:
     - Add a car to the queue.
-    - (Process)/Wash the first car in the queue and remove it from the queue.
+    - Process/Wash the first car in the queue and remove it from the queue.
     - Print the **total number** of cars in the queue.
     - Print the first car in the queue.
 
@@ -51,6 +51,6 @@ Total Cars: 3
 ```
 
 ## Qualification to pass 
-- [ ] The system shall run **without any errors**.
-- [ ] The system outputs shall match the **test case output**.
-- [ ] The system shall be able to **add cars to the queue**, **remove the first car** in the queue, **print the first car** in the queue, and **print the total number of cars** in the queue.
+- [ ] The system must run **without any errors**.
+- [ ] The system output should match the **test case output**.
+- [ ] The system should be able to **add cars to the queue**, **remove the first car** in the queue, **print the first car** in the queue, and **print the total number of cars** in the queue.
